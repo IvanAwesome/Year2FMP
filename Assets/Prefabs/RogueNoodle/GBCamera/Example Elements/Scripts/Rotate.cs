@@ -25,6 +25,8 @@ public class Rotate : MonoBehaviour {
 	
 	void Update ()
 	{
+				//var realTime = System.DateTime.Now;
+				//Debug.Log(realTime);
 		_transform.Rotate (_rotationAxis * _rotationSpeed * Time.deltaTime);
 	}
 }
