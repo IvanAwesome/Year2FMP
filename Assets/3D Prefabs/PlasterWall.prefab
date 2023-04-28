@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1166795204730877051}
   - component: {fileID: 1166795204730877050}
   m_Layer: 0
-  m_Name: YellowPolkaCube
+  m_Name: PlasterWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10cf111aa0be14643ab4590b5f71a05c, type: 2}
+  - {fileID: 2100000, guid: b0871e0d7ee0bac4a84e40768e1285b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
