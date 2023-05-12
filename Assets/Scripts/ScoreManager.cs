@@ -22,7 +22,7 @@ public class ScoreManager : MonoBehaviour
         score++;
         scoreText.text = "Score: " + score.ToString();
 
-        if (score == 10)
+        if (score == 1)
         {
             // Call the GameOver method from the static instance variable
             instance.GameOver();

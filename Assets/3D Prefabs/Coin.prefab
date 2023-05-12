@@ -111,4 +111,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
-  coinEffect: {fileID: 0}
+  coinEffect: {fileID: 1252190328099852805, guid: 5e9463b75ff9f044bb02b2c642f9ea67, type: 3}
