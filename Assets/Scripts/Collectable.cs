@@ -5,7 +5,12 @@ public class Collectable : MonoBehaviour
 {
     public int collectableValue = 1;
     public AudioClip collectSound;
+    public TimerScript timerScript;
 
+    private void Awake()
+    {
+        timerScript = GameObject.Find("GameTime").GetComponent<TimerScript>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -36,7 +41,7 @@ public class Collectable : MonoBehaviour
         // If all collectables have been picked up, load the next scene
         if (allCollected)
         {
-            SceneManager.LoadScene("Credits");
+            timerScript.isFinished = true;
         }
     }
 }

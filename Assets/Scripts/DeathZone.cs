@@ -10,6 +10,7 @@ public class DeathZone : MonoBehaviour
       if(col.CompareTag("Player"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            PlayerCoin.totalcoin = 0;
         }
     }
 }
