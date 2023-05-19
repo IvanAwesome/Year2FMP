@@ -16,7 +16,7 @@ public class PlayerCoin : MonoBehaviour
             Instantiate(coinEffect, transform.position, Quaternion.identity);
             totalcoin++;
             Debug.Log(totalcoin);
-            text.text = totalcoin.ToString();
+            text.text = $"{totalcoin} / 7";
             Destroy(gameObject);
         }
     }

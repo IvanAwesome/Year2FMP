@@ -24,5 +24,6 @@ public class ButtonScript : MonoBehaviour
         // Load the next scene
         SceneManager.LoadScene("Level 0");
         PlayerCoin.totalcoin = 0; 
+
     }
 }

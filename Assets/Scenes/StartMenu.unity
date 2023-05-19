@@ -315,8 +315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17db74401038034c8176f5379ad60f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFlickering: 1
-  timeDelay: 0
 --- !u!114 &493384709
 MonoBehaviour:
   m_ObjectHideFlags: 0
