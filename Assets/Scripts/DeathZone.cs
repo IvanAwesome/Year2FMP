@@ -9,7 +9,7 @@ public class DeathZone : MonoBehaviour
     {
       if(col.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("BadEnding");
             PlayerCoin.totalcoin = 0;
         }
     }

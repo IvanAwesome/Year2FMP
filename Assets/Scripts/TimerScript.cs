@@ -32,7 +32,12 @@ public class TimerScript : MonoBehaviour
             isFinished = false;
             startTime = Time.time;
         }
-
+        else if (SceneManager.GetActiveScene().name == "BadEnding")
+        {
+            GameObject.Find("Time").GetComponent<TextMeshProUGUI>().text = formattedTime;
+            isFinished = false;
+            startTime = Time.time;
+        }
     }
 
     private void DisplayTime(float time)
