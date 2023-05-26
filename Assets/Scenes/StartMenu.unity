@@ -934,7 +934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleAmount: 1.1
   originalScale: {x: 0, y: 0, z: 0}
-  Level0: 
+  LevelToLoad: 1
 --- !u!65 &858255266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1831,7 +1831,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 5971483490268409799, guid: cee86cee3e82af04baf9e1372df8c4fc, type: 2}
   m_audioClip: {fileID: 8300000, guid: cc7bcc83a23663b48b014f2bab08704b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1875,7 +1875,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
